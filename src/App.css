@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.yazi{
+    font-family: 'Unbounded', cursive;
+    font-size: 35px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ara{
+    font-family: 'Unbounded', cursive;
 }
+.buttons{
+    font-family: 'Unbounded', cursive;
+    font-size: 18px;
+    border: 2px rgb(204, 251, 204);
+    width: 150px;
+    height: auto;
+    box-shadow: 2px 1px rgb(204, 251, 204);
+    margin: 20px;
+}
+.how{
+    font-family: 'Roboto Mono', monospace;
+}
+.orta{
+    background-color: #cab8e8;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    z-index:1;
+    top:50px;
+    left:100px;
+    border-radius: 40px 0px 0px 40px;
+    font-weight: 600;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.texks{
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.basit{
+    background-color: #9df5e3;
+    border-radius: 100px;
+    width:80px;
+    height:80px;
+    position:absolute;
+   
+    }
+.yazimor{
+    background-color: white;
+    color: #cab8e8;
+    border: 1px solid  #cab8e8;
+    
+}
+.cardyuvarlak{
+    z-index:1;
+    top:0px;
+    left:150px;
+   position: absolute;
+}
+.basitorta{
+    background-color: #9df5e3;
+    border-radius: 100px;
+    width:80px;
+    height:80px;
+    position:relative;
+
+}
+.img{
+    width: 100px;
+    height: 100px;
+    background-color: #9df5e3;
+    margin:20px ;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.yazilar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.simsek{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.save{
+    width: 100px;
+    background-color: white;
+    color: #cab8e8;
+    border: 1px solid  #cab8e8; 
+    padding: 8px;
+}
+.tag {
+    background: #cccccc;
+    border-radius: 50px;
+    border: 1px solid  #bcbcbd; 
+    font-size: 12px;
+    margin: 0;
+    color: black;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .tag-teal {
+    background-color:white;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.google{
+    width: 50px;
+    margin: 15px;
+}
+.son{
+    background-color:#9df5e3 ;
+    width: 100%;
+    padding: 100px;
+}
+.footeryazi{
+    color: #cab8e8;
+    font-size: 30px;
+}
+.footerul{
+    font-size: 20px;
+}
+.logo{
+    color:#cab8e8;
+    font-size: 25px;
+    font-weight: 600;
 }
